@@ -1,0 +1,41 @@
+/* style by ID */
+.linksDemo {
+  padding-top: 5px;
+}
+.pageNav {
+  padding-top: 5px;
+}
+
+/* style by  class */
+#toTopLink {
+  position: fixed;
+  bottom: 10px;
+  right: 8px;
+  width: 30px;
+  border: 3px solid #73ad21;
+  background-color: #dee6d3;
+}
+#navId1 {
+  border-style: groove;
+}
+
+/* chgange for all 2 classes */
+.div1Class,
+.div2Class {
+  padding-left: 23px;
+}
+/* change from 2 classes'para element bik */
+.div1Class p,
+.div2Class p {
+  padding-left: 30px;
+}
+
+/* change oredered list items */
+ol {
+  font-size: x-large;
+  font-family: "Times New Roman", Times, serif;
+}
+ul li {
+  font-size: medium;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

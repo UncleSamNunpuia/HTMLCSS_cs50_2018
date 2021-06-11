@@ -7,9 +7,86 @@
     <title>Forms HTML</title>
   </head>
   <body>
+    <h1>This page is for learning HMTL, CSS as per CS50 Lecture1_2018</h1>
+    <br /><br />
     <section>
-      <form action="">
-        <input type="text" placeholder="Enter First Name" />
+      <form action="" id="form1">
+        <label for="1Name_name">First Name:</label>
+        <input type="text" placeholder="Enter First Name" name="1Name_name" />
+        <br />
+
+        <label for="">Last Name:</label>
+        <input type="text" placeholder="Enter Last Name" name="2Name_name" />
+        <br />
+
+        <label for="sex">Sex::</label>
+        <select name="sex_name" id="sexID">
+          <option value="Mipa">Mipa</option>
+          <option value="Hmeichhia">Hmeichhia</option>
+          <option value="Tuai">Tuai</option>
+          <option value="Patil">Patil</option>
+        </select>
+        <br />
+
+        <label for="pap_name">Pa Hming:</label>
+        <input type="text" placeholder="Pa hming ziak rawh" name="pap_name" />
+        <br />
+
+        <label for="veng_name">Veng Hming:</label>
+        <input list="veng" placeholder="Veng hming" name="veng_name" />
+        <datalist id="veng">
+          <option value="Thakthing"></option>
+          <option value="Kulikawn"></option>
+          <option value="Mission Vengthlang"></option>
+          <option value="Chaltlang"></option>
+          <option value="Khatla S"></option>
+        </datalist>
+        <br />
+
+        <label for="veng_name">In zawn awlna:</label>
+        <textarea form="form1" name="landmark_name">
+In awmna zawn awlnan, a bul vel a thil hmuh theih awlsam ziak rawh
+        </textarea>
+        <br />
+
+        <label for="hno_name">H/No. :</label>
+        <input type="text" placeholder="Enter First Name" name="hno_name" />
+        <br />
+
+        Y.M.A Section:
+        <input type="radio" value="Y-section" name="" />
+        <input type="radio" value="M-Section" name="" />
+        <input type="radio" value="A-Section" name="" />
+        <br />
+
+        Lirthei neih dan: <br />
+        <input
+          type="checkbox"
+          id="vehicle1"
+          name="vehicle1_name"
+          value="Bike"
+        />
+        <label for="vehicle1"> Bike</label><br />
+        <input type="checkbox" id="vehicle2" name="vehicle2_name" value="Car" />
+        <label for="vehicle2"> Car</label><br />
+        <input
+          type="checkbox"
+          id="vehicle3"
+          name="vehicle3_name"
+          value="Boat"
+        />
+        <label for="vehicle3"> Boat</label>
+        <input
+          type="checkbox"
+          id="vehicle4"
+          name="vehicle4_name"
+          value="Other"
+        />
+        <label for="vehicle4"> Other</label>
+        <br />
+
+        <br /><br />
+        <input type="submit" value="submit" />
       </form>
     </section>
   </body>

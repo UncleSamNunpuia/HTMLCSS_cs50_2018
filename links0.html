@@ -9,202 +9,214 @@
     <title>Links0 Page 2018</title>
   </head>
   <body>
-    <h1>This page is for learning HMTL, CSS as per CS50 Lecture1_2018</h1>
+    <div class="TopNav" id="topNavID">
+        <h1>This page is for learning HMTL, CSS as per CS50 Lecture1_2018</h1>
+    
+        <br /><br />
+        <nav id="navId1">
+          <ul>
+            <li class="linksDemo">
+              <a href="forms.html">Forms</a>
+            </li>
+            <li class="linksDemo">
+              <a href="hello.html">Hello</a>
+            </li>
+            <li class="linksDemo">
+              <a href="http://www.google.com">Goto Google.com</a>
+            </li>
+            <li class="linksDemo">
+              <a href="mailto: heitler23@gmail.com">mail heitler23</a>
+            </li>
+            <li class="linksDemo">
+              <a href="tel:+8414039358">call heitler aitel</a>
+            </li>
+            <li class="linksDemo">
+              <a href="javascript:alert('hello world alert');"
+                >Exe javascript (embedded)</a
+              >
+            </li>
+            <li class="linksDemo">
+              <a href="links0.js">Calls 'alrt fnt' from a linked js script </a>
+            </li>
+            <li class="linksDemo">
+              <a href="links0.js" onclick="alrt();"
+                >Calls 'alrt fnt' from a linked js script, but with onclick</a
+              >
+            </li>
+    
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=XQs5KcUj-Do&list=PLhQjrBD2T382hIW-IsOVuXP1uMzEvmcE5&index=4"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Click for the lecture video link to Youtube</a
+              >
+            </li>
+          </ul>
+        </nav>
 
-    <br /><br />
-    <nav id="navId1">
-      <ul>
-        <li class="linksDemo">
-          <a href="forms.html">This links to Forms.html</a>
-        </li>
-        <li class="linksDemo">
-          <a href="hello.html">This links to hello.html</a>
-        </li>
-        <li class="linksDemo">
-          <a href="http://www.google.com">Click to goto Google.com</a>
-        </li>
-        <li class="linksDemo">
-          <a href="mailto: heitler23@gmail.com">mail heitler23</a>
-        </li>
-        <li class="linksDemo">
-          <a href="tel:+8414039358">call heitler aitel</a>
-        </li>
-        <li class="linksDemo">
-          <a href="javascript:alert('hello world alert');"
-            >Exe javascript (embedded)</a
-          >
-        </li>
-        <li class="linksDemo">
-          <a href="links0.js">Calls 'alrt fnt' from a linked js script </a>
-        </li>
-        <li class="linksDemo">
-          <a href="links0.js" onclick="alrt();"
-            >Calls 'alrt fnt' from a linked js script, but with onclick</a
-          >
-        </li>
-
-        <li>
-          <a
-            href="https://www.youtube.com/watch?v=XQs5KcUj-Do&list=PLhQjrBD2T382hIW-IsOVuXP1uMzEvmcE5&index=4"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Click for the lecture video link to Youtube</a
-          >
-        </li>
-      </ul>
-    </nav>
+    </div>
     <!-- <a href="#section1ID" id="toTopLink">To Top</a> -->
     <a href="#navId1" id="toTopLink">To Top</a>
-
-    <section class="Section1Class" id="section1ID">
-      <ol>
-        <li><a href="#section1ID">Section 1</a></li>
-        <ul>
-          <li><a href="#section1.1">Section 1.1</a></li>
-          <li><a href="#section1.2">Section 1.2</a></li>
-          <li><a href="#section1.3">Section 1.3</a></li>
-          <li><a href="#section1.4">Section 1.4</a></li>
-          <li><a href="#section1.5">Section 1.5</a></li>
-        </ul>
-        <li><a href="#section2ID">section 2</a></li>
-        <ul>
-          <li><a href="#section2.1">Section 2.1</a></li>
-          <li><a href="#section2.2">Section 2.2</a></li>
-          <li><a href="#section2.3">Section 2.3</a></li>
-          <li><a href="#section2.4">Section 2.4</a></li>
-          <li><a href="#section2.5">Section 2.5</a></li>
-        </ul>
-      </ol>
-    </section>
-
-    <section class="Section2Class" id="section2ID">
-      <h2>2. This(from below) is a section-1 of one div class "div1Class"</h2>
-      <div class="div1Class" id="div1ID">
-        <h3 id="section1.1">1.1 Next 2 Para hian above links vel a sawi</h3>
-        <p>
-          The above links demonstarate ddifferent ways of using "a href" tag. Js
-          bi hi, "a hreh" ah hian href ah hian js te hi tlem embedded htheih.
-          Else, .js file pawh link theih, hetia linked nih chuan, onclick
-          funtion emaw in .js file a fm kan call duh kha kan mention ang
-        </p>
-        <p>
-          Js file hi a href ah link ta ila, fn call bik neiloh chuan kha mi js
-          file kha a in load tawp ang browser ah(above eg ah '6th na ang khi)').
-          Onclick tih emaw hmangin i.e event hamngin khami js file a fn dih bik
-          kha trigger, pawhin khami fn bik kha doc page angin a call tawp a
-          function a call lo. (above ah 7th na ang hi)
-        </p>
-        <h3 id="section1.2">
-          1.2 video link youtube: cuan a syntax hman thra.
-        </h3>
-        <p>
-          Hei hian, "FreeCodeCamp>Click for the lecture video link to Youtube a
-          sawi fiah.
-        </p>
-        <p>
-          Hemi link ah hian, click in new taba h youtube lecture video link open
-          an a ni. chuan to preent malicious attack "" target="_blank"
-          rel="noopener noreferrer" "" ("" 2 in kar a mi "") hi dah tel tur a
-          ni.
-        </p>
-        <h3 id="section1.3">
-          1.3 This is header 3 for illustrating diff parts of same page
-        </h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus
-          animi illo distinctio, minima quod soluta, rerum inventore ipsa nemo
-          deserunt voluptatum odit delectus eum cumque, iusto in. Quia,
-          blanditiis doloremque.
-        </p>
-        <h3 id="section1.4">
-          1.4 This is header 4 for illustrating diff parts of same page
-        </h3>
-        <p>
-          Also, point imp is that: we use 'id' to link diff sections and not use
-          'class' because, class tih chuan many may have same calss, so there
-          will ve conflict, hence id kan use, coz I.D is unique
-        </p>
-        <h3 id="section1.5">
-          1.5 This is header 5 for illustrating diff parts of same page
-        </h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ut
-          inventore fuga eveniet. Dolorem est minima nam provident, mollitia
-          commodi hic iure natus beatae similique eaque?
-        </p>
-      </div>
-
-      <h2>2. This(from below) is a section-1 of one div class "div2Class"</h2>
-      <div class="div2Class" id="div2ID">
-        <h3 id="section2.1">
-          2.1 Element in ang deuh thuak te HTML5 ah a thar
-        </h3>
-        <p>
-          html5 hma khan, div chauh hian, different sections of a body kha html
-          takin kan thren hrang thin a. Chuangah te chuan, "header, nav,
-          section, footer" te hi kan hmang nasa zual.
-        </p>
-        <p>
-          So, HTML5 atang hcuan nav , header, section, leh footer tih hi HTML
-          element hran angin a rawn awm. Mahse, a web page en chuan DIV nen an
-          in ang deuh vek tho, mahse, a lehkhabu ang zawngin ngaihtuah ta i la.
-          Hen elemnt thar te hi different sections of a boo, i.e header te, a
-          section or chapter hran2 te, a footer thren na ang a hi
-        </p>
-        <h3 id="section2.2">2.2 Different HTML tags same style</h3>
-        <p>
-          Different CLASS of a same html page, can have same css style in trawm.
-          eg: div element 2, clas1, tih leh class2 tih te hi stlye in ang kan
-          duh chuan css ah khan an intrawm thei.
-        </p>
-        <p>hemi hi eg ah hetah hian ka hmang. see: links0.css</p>
-        <h3 id="section2.3">2.3 HTML5 a new elements ( &lt;datalist&gt; )</h3>
-        <p>
-          HTML5 ah hian data list tiin element thar an rawn dah. Chu2, eg ah
-          select list of countries from drop down ang chi a tan a hman theih.
-        </p>
-        <p>
-          Hmei hi dropDown lsit box nen a in ang hle na a, a syntax a awl zawk
-          a. Tin, front end ah pawh, hemi nih chuan, defalut value kha a awm
-          nghal lova, dropdown ah chuan first value kha default angin a lang in
-          ka hria
-        </p>
-        <p>
-          Think of it as the difference between a requirement and a suggestion.
-          For the select element, the user is required to select one of the
-          options you've given. For the datalist element, it is suggested that
-          the user select one of the options you've given, but he can actually
-          enter anything he wants in the input. Edit 1: So which one you use
-          depends upon your requirements. If the user must enter one of your
-          choices, use the select element. If the use can enter whatever, use
-          the datalist element. Edit 2: Found this tidbit in the HTML Living
-          Standard: "Each option element that is a descendant of the datalist
-          element...represents a suggestion."
-          <a
-            href="https://stackoverflow.com/questions/6865943/html-form-select-option-vs-datalist-option"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read more from Link..
-          </a>
-        </p>
-        <h3 id="section2.4">
-          2.4 This is header 4 for illustrating diff parts of same page
-        </h3>
-        <p>
-          Also, point imp is that: we use 'id' to link diff sections and not use
-          'class' because, class tih chuan many may have same calss, so there
-          will ve conflict, hence id kan use, coz I.D is unique
-        </p>
-        <h3 id="section2.5">
-          2.5 This is header 5 for illustrating diff parts of same page
-        </h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ut
-          inventore fuga eveniet. Dolorem est minima nam provident, mollitia
-          commodi hic iure natus beatae similique eaque?
-        </p>
-      </div>
+    <section class="bodyClassContent" id="bodyNavID">
+        <section class="Section1Class" id="section1ID">
+          <ol>
+            <li><a href="#section1ID">Section 1</a></li>
+            <ul>
+              <li><a href="#section1.1">Section 1.1</a></li>
+              <li><a href="#section1.2">Section 1.2</a></li>
+              <li><a href="#section1.3">Section 1.3</a></li>
+              <li><a href="#section1.4">Section 1.4</a></li>
+              <li><a href="#section1.5">Section 1.5</a></li>
+            </ul>
+            <li><a href="#section2ID">section 2</a></li>
+            <ul>
+              <li><a href="#section2.1">Section 2.1</a></li>
+              <li><a href="#section2.2">Section 2.2</a></li>
+              <li><a href="#section2.3">Section 2.3</a></li>
+              <li><a href="#section2.4">Section 2.4</a></li>
+              <li><a href="#section2.5">Section 2.5</a></li>
+            </ul>
+          </ol>
+        </section>
+    
+        <section class="Section2Class" id="section2ID">
+          <h2>1. This(from below) is a section-1 of one div class "div1Class"</h2>
+          <div class="div1Class" id="div1ID">
+            <h3 id="section1.1">1.1 Next 2 Para hian above links vel a sawi</h3>
+            <p>
+              The above links demonstarate ddifferent ways of using "a href" tag. Js
+              bi hi, "a hreh" ah hian href ah hian js te hi tlem embedded htheih.
+              Else, .js file pawh link theih, hetia linked nih chuan, onclick
+              funtion emaw in .js file a fm kan call duh kha kan mention ang
+            </p>
+            <p>
+              Js file hi a href ah link ta ila, fn call bik neiloh chuan kha mi js
+              file kha a in load tawp ang browser ah(above eg ah '6th na ang khi)').
+              Onclick tih emaw hmangin i.e event hamngin khami js file a fn dih bik
+              kha trigger, pawhin khami fn bik kha doc page angin a call tawp a
+              function a call lo. (above ah 7th na ang hi)
+            </p>
+            <h3 id="section1.2">
+              1.2 video link youtube: cuan a syntax hman thra.
+            </h3>
+            <p>
+              Hei hian, "FreeCodeCamp>Click for the lecture video link to Youtube a
+              sawi fiah.
+            </p>
+            <p>
+              Hemi link ah hian, click in new taba h youtube lecture video link open
+              an a ni. chuan to preent malicious attack "" target="_blank"
+              rel="noopener noreferrer" "" ("" 2 in kar a mi "") hi dah tel tur a
+              ni.
+            </p>
+            <h3 id="section1.3">
+              1.3 This is header 3 for illustrating diff parts of same page
+            </h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus
+              animi illo distinctio, minima quod soluta, rerum inventore ipsa nemo
+              deserunt voluptatum odit delectus eum cumque, iusto in. Quia,
+              blanditiis doloremque.
+            </p>
+            <h3 id="section1.4">
+              1.4 This is header 4 for illustrating diff parts of same page
+            </h3>
+            <p>
+              Also, point imp is that: we use 'id' to link diff sections and not use
+              'class' because, class tih chuan many may have same calss, so there
+              will ve conflict, hence id kan use, coz I.D is unique
+            </p>
+            <h3 id="section1.5">
+              1.5 This is header 5 for illustrating diff parts of same page
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ut
+              inventore fuga eveniet. Dolorem est minima nam provident, mollitia
+              commodi hic iure natus beatae similique eaque?
+            </p>
+          </div>
+    
+          <h2>2. This(from below) is a section-1 of one div class "div2Class"</h2>
+          <div class="div2Class" id="div2ID">
+            <h3 id="section2.1">
+              2.1 Element in ang deuh thuak te HTML5 ah a thar
+            </h3>
+            <p>
+              html5 hma khan, div chauh hian, different sections of a body kha html
+              takin kan thren hrang thin a. Chuangah te chuan, "header, nav,
+              section, footer" te hi kan hmang nasa zual.
+            </p>
+                <h6>
+                    Heng te hi in ang hlawm hle in ka hria: div tag, section tag, filedset tag (having legen)
+                </h6>
+            <p>
+              So, HTML5 atang hcuan nav , header, section, leh footer tih hi HTML
+              element hran angin a rawn awm. Mahse, a web page en chuan DIV nen an
+              in ang deuh vek tho, mahse, a lehkhabu ang zawngin ngaihtuah ta i la.
+              Hen elemnt thar te hi different sections of a boo, i.e header te, a
+              section or chapter hran2 te, a footer thren na ang a hi
+            </p>
+            <h3 id="section2.2">2.2 Different HTML tags same style</h3>
+            <p>
+              Different CLASS of a same html page, can have same css style in trawm.
+              eg: div element 2, clas1, tih leh class2 tih te hi stlye in ang kan
+              duh chuan css ah khan an intrawm thei.
+            </p>
+            <p>hemi hi eg ah hetah hian ka hmang. see: links0.css</p>
+            <h3 id="section2.3">2.3 HTML5 a new elements ( &lt;datalist&gt; )</h3>
+            <p>
+              HTML5 ah hian data list tiin element thar an rawn dah. Chu2, eg ah
+              select list of countries from drop down ang chi a tan a hman theih.
+            </p>
+            <p>
+              Hmei hi dropDown lsit box nen a in ang hle na a, a syntax a awl zawk
+              a. Tin, front end ah pawh, hemi nih chuan, defalut value kha a awm
+              nghal lova, dropdown ah chuan first value kha default angin a lang in
+              ka hria
+            </p>
+            <p>
+              Think of it as the difference between a requirement and a suggestion.
+              For the select element, the user is required to select one of the
+              options you've given. For the datalist element, it is suggested that
+              the user select one of the options you've given, but he can actually
+              enter anything he wants in the input. Edit 1: So which one you use
+              depends upon your requirements. If the user must enter one of your
+              choices, use the select element. If the use can enter whatever, use
+              the datalist element. Edit 2: Found this tidbit in the HTML Living
+              Standard: "Each option element that is a descendant of the datalist
+              element...represents a suggestion."
+              <a
+                href="https://stackoverflow.com/questions/6865943/html-form-select-option-vs-datalist-option"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Read more from Link..
+              </a>
+            </p>
+            <h3 id="section2.4">
+              2.4 Specficity of diffrent elements styling
+            </h3>
+            <p>
+              order of specificity is as follows:
+              <ol style="font-family: font-family; font-size: medium;padding-left: 45px;">
+                  <li>InLine</li>
+                  <li>id</li>
+                  <li>class</li>
+                  <li>type</li>
+              </ol>
+            </p>
+            <p>My ordered list above hi css ah ol, li angin style ka pek kha in herit dawn a. Chu2 ka duhloh avangin inline ah khian style ka dah ta mai a ni. Eg:  &lt;ol style="font-family: font-family; font-size: medium;padding-left: 45px;"&gt;</ol></p>
+            <h3 id="section2.5">
+              2.5 This is header 5 for illustrating diff parts of same page
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ut
+              inventore fuga eveniet. Dolorem est minima nam provident, mollitia
+              commodi hic iure natus beatae similique eaque?
+            </p>
+          </div>
+        </section>
     </section>
   </body>
 </html>
